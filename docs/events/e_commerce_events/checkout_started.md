@@ -1,4 +1,4 @@
-### **2.10 Checkout Started Event**
+### **Checkout Started Event**
 
 To report an event the checkout process begins.
 

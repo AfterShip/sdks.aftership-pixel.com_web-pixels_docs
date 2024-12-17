@@ -1,4 +1,4 @@
-### **2.2 Item Viewed Event**
+### **Item Viewed Event**
 
 To report an event when the customer viewed the product.
 

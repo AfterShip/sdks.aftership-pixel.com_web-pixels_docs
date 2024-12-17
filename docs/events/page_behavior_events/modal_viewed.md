@@ -1,4 +1,4 @@
-### **1.3 Modal Viewed Event**
+### **Modal Viewed Event**
 
 To report an event when a visitor view a modal prompt.
 

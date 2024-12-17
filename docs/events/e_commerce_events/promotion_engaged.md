@@ -1,4 +1,4 @@
-### **2.7 Promotion Engaged Event**
+### **Promotion Engaged Event**
 
 To report an event when the customer engage the promotion.
 

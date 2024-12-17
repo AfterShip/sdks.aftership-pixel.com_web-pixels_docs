@@ -1,4 +1,4 @@
-### 1.1 Clicked Event
+### Clicked Event
 
 To report an event when a visitor clicks a link that directs them away from the current domain.
 

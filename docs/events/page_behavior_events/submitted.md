@@ -1,4 +1,4 @@
-### **1.4 Submitted Event**
+### **Submitted Event**
 
 To report an event when a visitor submit a form.
 

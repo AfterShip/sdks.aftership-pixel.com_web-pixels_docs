@@ -1,4 +1,4 @@
-### **2.1 Search Submitted Event**
+### **Search Submitted Event**
 
 To report an event when a visitor submit a search action.
 

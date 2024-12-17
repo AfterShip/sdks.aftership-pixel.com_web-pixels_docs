@@ -1,4 +1,4 @@
-### **2.5 Cart Viewed Event**
+### **Cart Viewed Event**
 
 To report an event when the customer view the shopping cart.
 

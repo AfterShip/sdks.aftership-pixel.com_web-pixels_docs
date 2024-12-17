@@ -1,4 +1,4 @@
-### **2.6 Promotion Viewed Event**
+### **Promotion Viewed Event**
 
 To report an event when the customer view the promotion.
 

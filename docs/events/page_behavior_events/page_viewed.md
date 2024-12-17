@@ -1,4 +1,4 @@
-### **1.2 Page Viewed Event**
+### **Page Viewed Event**
 
 To report an event when a visitor loads the page or when the browser history state is changed by the active site.
 

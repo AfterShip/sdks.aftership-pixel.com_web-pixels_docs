@@ -1,4 +1,4 @@
-## 3. track(eventName: string, eventParameters: object)
+## track(eventName: string, eventParameters: object)
 
 For the custom reporting method, provide the event name and custom params.
 

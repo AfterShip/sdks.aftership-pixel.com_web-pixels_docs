@@ -1,4 +1,4 @@
-## 4. debug(isDebug: boolean)
+## debug(isDebug: boolean)
 
 To debug data reporting, you can call `window.ASPixel.debug()` in the browser’s console to enable debug mode. Once enabled, events will not be sent to AfterShip; instead, the event data will be output to the console.
 

@@ -1,4 +1,4 @@
-### **2.3 Item Clicked Event**
+### **Item Clicked Event**
 
 To report an event when the customer clicked the product.
 

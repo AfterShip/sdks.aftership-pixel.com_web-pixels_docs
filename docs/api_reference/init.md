@@ -1,4 +1,4 @@
-## 1. init(sdkConfig: SdkConfig)
+## init(sdkConfig: SdkConfig)
 
 To initialize the SDK, you need to provide a `pixel_id` to identify the store. This process is asynchronous, so be sure to handle it accordingly.
 

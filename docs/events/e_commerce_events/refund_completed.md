@@ -1,4 +1,4 @@
-### **2.9 Refund Completed Event**
+### **Refund Completed Event**
 
 To report an event when an order refund is completed.
 

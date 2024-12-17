@@ -1,4 +1,4 @@
-### **2.8 Purchase Completed Event**
+### **Purchase Completed Event**
 
 To report an event when the customer completes a purchase.
 

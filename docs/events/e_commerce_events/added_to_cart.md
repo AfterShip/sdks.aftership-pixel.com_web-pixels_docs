@@ -1,4 +1,4 @@
-### **2.4 Added to Cart Event**
+### **Added to Cart Event**
 
 To report an event when items are being added to the shopping cart.
 

@@ -10,10 +10,39 @@
       "uri": "/docs/quickstart/get_started.md",
       "slug": "aftership-pixel/quickstart/get-started"
     },
-
     {
       "type": "divider",
       "title": "EVENTS"
+    },
+    {
+      "type": "group",
+      "title": "Page Behavior Events",
+      "items": [
+        {
+          "type": "item",
+          "title": "Clicked",
+          "uri": "/docs/events/page_behavior_events/clicked.md",
+          "slug": "aftership-pixel/events/page-behavior-events/clicked"
+        },
+        {
+          "type": "item",
+          "title": "Modal Viewed",
+          "uri": "/docs/events/page_behavior_events/modal_viewed.md",
+          "slug": "aftership-pixel/events/page-behavior-events/modal-viewed"
+        },
+        {
+          "type": "item",
+          "title": "Page Viewed",
+          "uri": "/docs/events/page_behavior_events/page_viewed.md",
+          "slug": "aftership-pixel/events/page-behavior-events/page-viewed"
+        },
+        {
+          "type": "item",
+          "title": "Submitted",
+          "uri": "/docs/events/page_behavior_events/submitted.md",
+          "slug": "aftership-pixel/events/page-behavior-events/submitted"
+        }
+      ]
     },
     {
       "type": "group",
@@ -83,36 +112,6 @@
     },
     {
       "type": "group",
-      "title": "Page Behavior Events",
-      "items": [
-        {
-          "type": "item",
-          "title": "Clicked",
-          "uri": "/docs/events/page_behavior_events/clicked.md",
-          "slug": "aftership-pixel/events/page-behavior-events/clicked"
-        },
-        {
-          "type": "item",
-          "title": "Modal Viewed",
-          "uri": "/docs/events/page_behavior_events/modal_viewed.md",
-          "slug": "aftership-pixel/events/page-behavior-events/modal-viewed"
-        },
-        {
-          "type": "item",
-          "title": "Page Viewed",
-          "uri": "/docs/events/page_behavior_events/page_viewed.md",
-          "slug": "aftership-pixel/events/page-behavior-events/page-viewed"
-        },
-        {
-          "type": "item",
-          "title": "Submitted",
-          "uri": "/docs/events/page_behavior_events/submitted.md",
-          "slug": "aftership-pixel/events/page-behavior-events/submitted"
-        }
-      ]
-    },
-    {
-      "type": "group",
       "title": "Resource",
       "items": [
         {
@@ -145,31 +144,27 @@
     },
     {
       "type": "item",
-      "title": "Debug",
+      "title": "debug",
       "uri": "/docs/api_reference/debug.md",
       "slug": "aftership-pixel/api-reference/debug"
     },
     {
       "type": "item",
-      "title": "Events",
+      "title": "events",
       "uri": "/docs/api_reference/events.md",
       "slug": "aftership-pixel/api-reference/events"
     },
     {
       "type": "item",
-      "title": "Init",
+      "title": "init",
       "uri": "/docs/api_reference/init.md",
       "slug": "aftership-pixel/api-reference/init"
     },
     {
       "type": "item",
-      "title": "Track",
+      "title": "track",
       "uri": "/docs/api_reference/track.md",
       "slug": "aftership-pixel/api-reference/track"
-    },
-    {
-      "type": "divider",
-      "title": "FAQ"
     },
     {
       "type": "item",
