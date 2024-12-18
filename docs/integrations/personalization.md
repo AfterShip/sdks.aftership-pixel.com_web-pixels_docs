@@ -48,10 +48,10 @@ Triggered when an upsell offer is displayed.
 **Example Payload**
 ```jsx
 ASPixel.events.promotionViewed({
-	app_name: ASPixel.Apps.AfterShipPersonalization,
-	promotion_scene_name: "CartPage",
-	promotion_asset_name: "Cross-Sell Widget",
-	product_ids: ["7707982524535", "7807912425575"],
+  app_name: ASPixel.Apps.AfterShipPersonalization,
+  promotion_scene_name: "CartPage",
+  promotion_asset_name: "Cross-Sell Widget",
+  product_ids: ["7707982524535", "7807912425575"],
 });
 ```
 
@@ -77,15 +77,15 @@ Triggered when a user clicks on any part of a recommended product within the ups
 
 ```jsx
 ASPixel.events.promotionEngaged({
-	app_name: ASPixel.Apps.AfterShipPersonalization,
-	promotion_scene_name: "CartPage"
-	promotion_asset_name: "Cross-Sell Widget",
-	items: [
-		{
-			"product_id": "7707982524535",
-			"product_name": "Shirt",
-		}
-	]
+  app_name: ASPixel.Apps.AfterShipPersonalization,
+  promotion_scene_name: "CartPage"
+  promotion_asset_name: "Cross-Sell Widget",
+  items: [
+    {
+      "product_id": "7707982524535",
+      "product_name": "Shirt",
+    }
+  ]
 });
 ```
 
@@ -113,28 +113,28 @@ Triggered after a user completes a purchase. It can be sent from either your web
 
 ```jsx
 ASPixel.events.purchaseCompleted({
-	order_id: "a83bb006-88d2-40e7-a00c-70b577435a1", 
+  order_id: "a83bb006-88d2-40e7-a00c-70b577435a1", 
   currency: "USD",
   value: 49.99,
-	items: [
-		{      
-			"product_id": "7707982524535",
-		  "variant_id": "4402182524212",
-			"unit_price": {
-				"currency": "USA",
-				"amount": "20.11"
-			},
-			"quantity": 3
-		},
-		{      
-			"product_id": "7807912425575",
-		  "item_id": "5216582523310",
-			"unit_price": {
-				"currency": "USA",
-				"amount": "20.11"
-			},
-			"quantity": 3
-		}  
-	], 
+  items: [
+    {      
+      "product_id": "7707982524535",
+      "variant_id": "4402182524212",
+      "unit_price": {
+        "currency": "USA",
+        "amount": "20.11"
+      },
+      "quantity": 3
+    },
+    {      
+      "product_id": "7807912425575",
+      "item_id": "5216582523310",
+      "unit_price": {
+        "currency": "USA",
+        "amount": "20.11"
+      },
+      "quantity": 3
+    }  
+  ], 
 });
 ```

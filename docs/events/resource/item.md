@@ -2,10 +2,8 @@
 
 | Name | Type | Required | Example value | Description |
 | --- | --- | --- | --- | --- |
-| id | `string` | ✔ | SKU_12345 | The ID of the item.
-Please provide either `id` or `title` . |
-| title | `string` | ✔ | Stan and Friends Tee | The name of the item.
-Please provide either `id` or `title` . |
+| id | `string` | ✔ | SKU_12345 | The ID of the item. Please provide either `id` or `title` . |
+| title | `string` | ✔ | Stan and Friends Tee | The name of the item.Please provide either `id` or `title` . |
 | product_id | `string` | ✔ | P920582 | The product ID of this item. |
 | product_title | `string` | ✔ | T-Shirt | The product name of this item. |
 | coupon | `string` |  | SUMMER_FUN | The coupon name/code associated with the item. Event-level and item-level `coupon` parameters are independent. |
@@ -40,9 +38,9 @@ Please provide either `id` or `title` . |
   category4: 'Crew',
   category5: 'Short sleeve',
   unit_price: {
-	  currency: 'USD',
-	  amount: '10'
-	},
+    currency: 'USD',
+    amount: '10'
+  },
   quantity: 3
 }
 ```

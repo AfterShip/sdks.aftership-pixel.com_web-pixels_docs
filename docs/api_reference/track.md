@@ -11,6 +11,6 @@ For the custom reporting method, provide the event name and custom params.
 
 ```jsx
 ASPixel.track('eventName', {
-	...eventParameters
+  ...eventParameters
 })
 ```

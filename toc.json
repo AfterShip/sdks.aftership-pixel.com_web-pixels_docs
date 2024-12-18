@@ -167,6 +167,10 @@
       "slug": "aftership-pixel/api-reference/track"
     },
     {
+      "type": "divider",
+      "title": "FAQ"
+    },
+    {
       "type": "item",
       "title": "FAQ",
       "uri": "/docs/faq/faq.md",

@@ -22,6 +22,6 @@ To report an event when a visitor loads the page or when the browser history sta
 ASPixel.events.pageViewed();
 
 ASPixel.events.pageViewed({
-	customer_id: 'dcf4b98f250242ffad7822fa44835b38'
+  customer_id: 'dcf4b98f250242ffad7822fa44835b38'
 });
 ```
