@@ -1,0 +1,20 @@
+name: Trigger WWW-Docs repo build action
+
+on:
+  push:
+    branches: [master]
+  release:
+    types: [published]
+
+jobs:
+  trigger-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch repo event to build docs
+        run: |
+          curl \
+            -X POST \
+            -H 'Authorization: token ${{secrets.RESTRICTED_REPO_TOKEN}}' \
+            -H 'Accept: application/vnd.github.everest-preview+json' \
+            https://api.github.com/repos/AfterShip/websites.automizely.com_docs/dispatches \
+            -d '{"event_type":"trigger-build","client_payload":{"repository": "${{github.repository}}", "ref_type":"${{github.ref_type}}", "ref_name":"${{github.ref_name}}", "job":"${{ github.job }}"}}'
