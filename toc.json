@@ -1,0 +1,176 @@
+{
+  "items": [
+    {
+      "type": "divider",
+      "title": "QUICKSTART"
+    },
+    {
+      "type": "item",
+      "title": "Get Started",
+      "uri": "/docs/quickstart/get_started.md",
+      "slug": "aftership-pixel/quickstart/get-started"
+    },
+    {
+      "type": "divider",
+      "title": "EVENTS"
+    },
+    {
+      "type": "group",
+      "title": "Page Behavior Events",
+      "items": [
+        {
+          "type": "item",
+          "title": "Clicked",
+          "uri": "/docs/events/page_behavior_events/clicked.md",
+          "slug": "aftership-pixel/events/page-behavior-events/clicked"
+        },
+        {
+          "type": "item",
+          "title": "Modal Viewed",
+          "uri": "/docs/events/page_behavior_events/modal_viewed.md",
+          "slug": "aftership-pixel/events/page-behavior-events/modal-viewed"
+        },
+        {
+          "type": "item",
+          "title": "Page Viewed",
+          "uri": "/docs/events/page_behavior_events/page_viewed.md",
+          "slug": "aftership-pixel/events/page-behavior-events/page-viewed"
+        },
+        {
+          "type": "item",
+          "title": "Submitted",
+          "uri": "/docs/events/page_behavior_events/submitted.md",
+          "slug": "aftership-pixel/events/page-behavior-events/submitted"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "E-commerce Events",
+      "items": [
+        {
+          "type": "item",
+          "title": "Added to Cart",
+          "uri": "/docs/events/e_commerce_events/added_to_cart.md",
+          "slug": "aftership-pixel/events/e-commerce-events/added-to-cart"
+        },
+        {
+          "type": "item",
+          "title": "Cart Viewed",
+          "uri": "/docs/events/e_commerce_events/cart_viewed.md",
+          "slug": "aftership-pixel/events/e-commerce-events/cart-viewed"
+        },
+        {
+          "type": "item",
+          "title": "Checkout Started",
+          "uri": "/docs/events/e_commerce_events/checkout_started.md",
+          "slug": "aftership-pixel/events/e-commerce-events/checkout-started"
+        },
+        {
+          "type": "item",
+          "title": "Item Clicked",
+          "uri": "/docs/events/e_commerce_events/item_clicked.md",
+          "slug": "aftership-pixel/events/e-commerce-events/item-clicked"
+        },
+        {
+          "type": "item",
+          "title": "Item Viewed",
+          "uri": "/docs/events/e_commerce_events/item_viewed.md",
+          "slug": "aftership-pixel/events/e-commerce-events/item-viewed"
+        },
+        {
+          "type": "item",
+          "title": "Promotion Engaged",
+          "uri": "/docs/events/e_commerce_events/promotion_engaged.md",
+          "slug": "aftership-pixel/events/e-commerce-events/promotion-engaged"
+        },
+        {
+          "type": "item",
+          "title": "Promotion Viewed",
+          "uri": "/docs/events/e_commerce_events/promotion_viewed.md",
+          "slug": "aftership-pixel/events/e-commerce-events/promotion-viewed"
+        },
+        {
+          "type": "item",
+          "title": "Purchase Completed",
+          "uri": "/docs/events/e_commerce_events/purchase_completed.md",
+          "slug": "aftership-pixel/events/e-commerce-events/purchase-completed"
+        },
+        {
+          "type": "item",
+          "title": "Refund Completed",
+          "uri": "/docs/events/e_commerce_events/refund_completed.md",
+          "slug": "aftership-pixel/events/e-commerce-events/refund-completed"
+        },
+        {
+          "type": "item",
+          "title": "Search Submitted",
+          "uri": "/docs/events/e_commerce_events/search_submitted.md",
+          "slug": "aftership-pixel/events/e-commerce-events/search-submitted"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Resource",
+      "items": [
+        {
+          "type": "item",
+          "title": "Item",
+          "uri": "/docs/events/resource/item.md",
+          "slug": "aftership-pixel/events/resource/item"
+        }
+      ]
+    },
+    {
+      "type": "divider",
+      "title": "INTEGRATIONS"
+    },
+    {
+      "type": "item",
+      "title": "Personalization",
+      "uri": "/docs/integrations/personalization.md",
+      "slug": "aftership-pixel/integrations/personalization"
+    },
+    {
+      "type": "item",
+      "title": "Shopify Headless",
+      "uri": "/docs/integrations/shopify_headless.md",
+      "slug": "aftership-pixel/integrations/shopify-headless"
+    },
+    {
+      "type": "divider",
+      "title": "API REFERENCE"
+    },
+    {
+      "type": "item",
+      "title": "debug",
+      "uri": "/docs/api_reference/debug.md",
+      "slug": "aftership-pixel/api-reference/debug"
+    },
+    {
+      "type": "item",
+      "title": "events",
+      "uri": "/docs/api_reference/events.md",
+      "slug": "aftership-pixel/api-reference/events"
+    },
+    {
+      "type": "item",
+      "title": "init",
+      "uri": "/docs/api_reference/init.md",
+      "slug": "aftership-pixel/api-reference/init"
+    },
+    {
+      "type": "item",
+      "title": "track",
+      "uri": "/docs/api_reference/track.md",
+      "slug": "aftership-pixel/api-reference/track"
+    },
+    {
+      "type": "item",
+      "title": "FAQ",
+      "uri": "/docs/faq/faq.md",
+      "slug": "aftership-pixel/faq"
+    }
+  ]
+}
