@@ -18,6 +18,6 @@ To initialize the SDK, you need to provide a `pixel_id` to identify the store.
 
 ```jsx
 await ASPixel.init({
-	pixel_id: '<input your AfterShip PixelId>'
+  pixel_id: '<input your AfterShip PixelId>'
 });
 ```

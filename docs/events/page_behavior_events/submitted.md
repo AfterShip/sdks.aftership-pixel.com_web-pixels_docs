@@ -23,9 +23,9 @@ To report an event when a visitor submit a form.
 
 ```tsx
 ASPixel.events.submitted({
-	form_id: '1234',
-	form_name: 'suggestions',
-	succeed: true,
-	customer_id: 'dcf4b98f250242ffad7822fa44835b38'
+  form_id: '1234',
+  form_name: 'suggestions',
+  succeed: true,
+  customer_id: 'dcf4b98f250242ffad7822fa44835b38'
 });
 ```

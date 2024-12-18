@@ -63,8 +63,8 @@ The `ASPixel.events.*` function allows you to record any events and actions on y
 ```javascript
 // Tracking a click action
 ASPixel.events.clicked({
-	link: 'www.aftership.com',
-	label: 'aftership'
+  link: 'www.aftership.com',
+  label: 'aftership'
 });
 
 // Tracking a page view action
@@ -79,13 +79,13 @@ After sending the first event, you can include the `customer_id` parameter when 
 ```javascript
 // Tracking a search action with a customer ID
 ASPixel.events.searchSubmitted({
-	search_term: 'laptop',
-	customer_id: "e4b0f8a6c9d64a2b8e2f0c67a8d4f9e2"
+  search_term: 'laptop',
+  customer_id: "e4b0f8a6c9d64a2b8e2f0c67a8d4f9e2"
 });
 
 // Tracking a page view action with a customer ID
 ASPixel.events.pageViewed({
-	customer_id: 'e4b0f8a6c9d64a2b8e2f0c67a8d4f9e2'
+  customer_id: 'e4b0f8a6c9d64a2b8e2f0c67a8d4f9e2'
 });
 ```
 

@@ -21,9 +21,9 @@ To report an event when a visitor clicks a link that directs them away from the 
 **Example**
 ```javascript
 ASPixel.events.clicked({
-	link_url: '<https://www.aftership.com>',
-	label: 'official website',
-	customer_id: 'dcf4b98f250242ffad7822fa44835b38'
+  link_url: '<https://www.aftership.com>',
+  label: 'official website',
+  customer_id: 'dcf4b98f250242ffad7822fa44835b38'
 });
 ```
 
